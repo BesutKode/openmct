@@ -120,9 +120,9 @@
         }
     }
 
-    &.t-frame-outer .t-frame-outer .s-input-inline {
+    &.t-frame-outer .s-input-inline {
         // Prevent inline inputs from being edited when nested in a Layout
-        pointer-events: none;
+        pointer-events: none !important;
     }
 
         /********************************************************** OBJECT TYPES */
