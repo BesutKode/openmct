@@ -1,5 +1,5 @@
 FROM node:8.5
-LABEL maintainer="Damillora (duniapengetahuan.12345@gmail.com)"
+LABEL maintainer="duniapengetahuan.12345@gmail.com"
 RUN groupadd -r openmct && useradd --no-log-init -r -g openmct -ms /bin/bash openmct
 COPY . /var/lib/openmct
 WORKDIR /var/lib/openmct
