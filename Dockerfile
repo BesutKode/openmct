@@ -1,5 +1,5 @@
 FROM node:8.5
-MAINTAINER Damillora (duniapengetahuan.12345@gmail.com)
+LABEL maintainer="Damillora (duniapengetahuan.12345@gmail.com)"
 RUN useradd -ms /bin/bash mikku
 COPY . /var/lib/openmct
 WORKDIR /var/lib/openmct
